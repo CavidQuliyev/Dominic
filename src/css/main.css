@@ -1,5 +1,66 @@
+@import url(css/animate.css);
+@import url(css/camera.css);
+@import url(css/flaticon.css);
+@import url(css/prettyPhoto.css);
+@import url(css/owl.carousel.css);
+@import url(css/font-awesome.min.css);
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,500,700');
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+body {
+    color: #999999;
+    font-family: 'Roboto Mono', monospace;
+    line-height: 1.80857;
+}
+
+.navbar{
+    font-size: 14PX;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:10px 120px;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(64, 68, 68);
+}
+.navbarsagitems-ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.navbarsagitemlink-active{
+font-weight: 600;
+text-decoration: none;
+color: #fff;
+}
+.navbarsagitemlink{
+text-decoration: none;
+color: #fff;
+}
+
+
+.navbarsag-items-ul-li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.navbarsag-items-lineheight{
+    height: 3px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+
+
+
+
