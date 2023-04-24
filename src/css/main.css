@@ -17,6 +17,9 @@ body {
 }
 
 .navbar{
+    top: 0;
+    left: 0;
+    position: fixed;
     font-size: 14PX;
     display: flex;
     align-items: center;
@@ -24,8 +27,15 @@ body {
     padding:10px 120px;
     width: 100%;
     height: 70px;
+    background-color:transparent;
+    z-index: 1;
+    transition: .3s ease-in-out background-color;
+}
+
+.navbarActive{
     background-color: rgb(64, 68, 68);
 }
+
 .navbarsagitems-ul{
     list-style: none;
     display: flex;
@@ -72,7 +82,7 @@ color: #fff;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(/src/Image/banner-01.jpg);
+    background-image: url(../images/banner-01.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -144,4 +154,56 @@ color: #fff;
     align-items: center;
     height: 100px;
     color: white;
+}
+
+#clouds{
+	margin-top: -5%;
+	position: relative;
+	z-index: 0;
+    padding: 0;
+}
+#clouds path {
+    fill: #ffffff;
+    bottom: -10px;
+    overflow: hidden;
+    stroke: #ffffff;
+}
+
+/* Xosrovsection2 */
+.aboutdominic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin: 60px 90px;
+}
+.btn-download-cv{
+    padding: 15px 15px;
+    border: 1px solid black;
+    margin: 20px 0px;
+    height: 50px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.btn-download-cv:hover{
+    color: rgb(233, 240, 240);
+    background-color: black;
+    padding: 15px 15px;
+    border: 1px solid black;
+    margin: 20px 0px;
+    height: 50px;
+}
+
+
+
+
+.right-box-img::before{
+    content: "";
+    background: url(/src/images/country-quilt-dark.png);
+    width: 500px;
+    height: 350px;
+    position: absolute;
+    bottom: -510px;
+    right: 130px;
+    z-index: -1;
 }
