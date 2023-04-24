@@ -1,3 +1,4 @@
+
 const navbar = document.querySelector("#navbar");
 
 document.addEventListener("scroll" , function(e) {
@@ -70,5 +71,4 @@ function Delete() {
 
 // Start the typing effect on load
 _INTERVAL_VAL = setInterval(Type, 50);
-
 
