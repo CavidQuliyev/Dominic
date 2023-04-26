@@ -136,14 +136,19 @@ color: #fff;
     color: white;
 }
 .section1-div2-p2{
-    width: 370px;
+    /* width: 370px; */
+    width: 0px;
     font-size: 35px;
     font-weight: 900;
-    display: flex;
+    display: none;
     justify-content: start;
     align-items: center;
     height: 100px;
     color: white;
+}
+.section1-div2-p2-copy{
+    width: 370px;
+    display: flex;
 }
 .section3{
     width: 100%;
@@ -354,6 +359,15 @@ color: #fff;
     justify-content: start;
     align-items: center;
 }
+.main-box-content{
+    display: flex;
+    gap: 2%;
+    transition: 2s;
+}
+.main-box-contentcopy{
+    transform: translateX(-50%);
+    transition: 2s;
+}
 .up-title-content{
     width: 73%;
     height: 40px;
@@ -363,6 +377,8 @@ color: #fff;
     margin-bottom: 30px;
 }
 .section5-main-box{
+    flex-wrap: nowrap;
+    overflow: hidden;
     width: 73%;
     height: 290px;
     display: flex;
@@ -371,7 +387,7 @@ color: #fff;
     gap: 30px;
 }
 .section5-main-box1{
-    width: 49%;
+    min-width: 49%;
     height: 100%;
 
 }
@@ -415,7 +431,7 @@ color: #fff;
     height: 50px;
 }
 .section5-main-box2{
-    width: 49%;
+    min-width: 49%;
     height: 100%;
 }
 .section5-main-box2-upperpart{
@@ -454,6 +470,50 @@ color: #fff;
     gap: 20px;
 }
 .section5-main-box2-lowerpart-img{
+    width: 50px;
+    height: 50px;
+}
+.section5-main-box3{
+    min-width: 49%;
+    height: 100%;
+    
+}
+.section5-main-box3-upperpart{
+    width: 100%;
+    height: 190px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section5-main-box3-upperpart-tittle{
+    width: 90%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+}
+.section5-main-box3-upperpart-tittle i{
+    font-size: 50px;
+}
+.section5-main-box3-upperpart-tittle h4{
+    color: white;
+    font-size: 20px;
+}
+.section5-main-box3-upperpart-content{
+    width: 90%;
+    color: gray;
+}
+.section5-main-box3-lowerpart{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+}
+.section5-main-box3-lowerpart-img{
     width: 50px;
     height: 50px;
 }
