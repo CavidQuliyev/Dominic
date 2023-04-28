@@ -94,7 +94,7 @@
   const btnCreative = document.getElementById('btn3')
   const btnGraphic = document.getElementById('btn4')
   const section4main = document.querySelector('.section4main')
-  const section4mainyuxaridiv2= document.querySelector('.section4mainyuxaridiv2')
+  const section4mainyuxaridiv2 = document.querySelector('.section4mainyuxaridiv2')
 
   let baza = [
     {
@@ -163,9 +163,6 @@
               <div class="section4mainyuxaridiv1">
                 <div class="hover"></div>
               </div>
-              <div class="section4mainyuxaridiv2">
-                <div class="hover"></div>
-              </div>
               <div class="section4mainyuxaridiv3">
                 <div class="hover"></div>
               </div>
@@ -225,7 +222,7 @@
     btnCreative.classList.remove('btncopy')
     btnWeb.classList.remove('btncopy')
     btnAll.classList.remove('btncopy')
-    
+
     for (let i = 0; i < baza.length; i++) {
       if (baza[i].name == "Graphic") {
 
